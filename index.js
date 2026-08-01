@@ -14,7 +14,7 @@ const https = require("https");
 // ============================================================
 const app = express();
 app.use(express.json());
-const PORT = process.env.PORT || 5000;
+const PORT = DARK_SMP_SHADOW.aternos.me|| 39835;
 
 // Bot state tracking
 let botState = {
